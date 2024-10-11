@@ -1,14 +1,14 @@
 import React from "react";
-import Image from "../../assets/section01.png";
-import Image2 from "../../assets/Section2.png";
-import Image3 from "../../assets/Section3.png";
+import Image from "../../assets/image/section01.png";
+import Image2 from "../../assets/image/Section2.png";
+import Image3 from "../../assets/image/Section3.png";
 
 const Features: React.FC = () => {
   return (
     <div className="ml-14">
       <section
         id="section1"
-        className="h-screen flex items-center justify-center px-20 relative"
+        className="h-screen flex items-center justify-center px-28 relative"
       >
         <div className="grid grid-cols-2 gap-10 w-full z-10">
           <div className="flex flex-col justify-center">
@@ -16,8 +16,9 @@ const Features: React.FC = () => {
               <span className="absolute -top-20 -left-10 text-[13rem] font-bold text-gray-400 text-opacity-5 leading-none">
                 01
               </span>
-              <div className="flex gap-1 items-center ml-24">
-                <span className="text-md uppercase font-bold mt-4 text-[#FBD784] gap-1">
+              <div className="flex gap-1 justify-center items-center -ml-48">
+              <div className="border border-[#FBD784] border-x-4 w-20 h-0.5 mr-4 mt-3"></div>
+                <span className="text-2xl uppercase font-bold mt-4 text-[#FBD784] gap-1">
                   Get Start
                 </span>
               </div>
@@ -63,7 +64,8 @@ const Features: React.FC = () => {
                 02
               </span>
               <div className="flex gap-1 items-center ml-24">
-                <span className="text-md uppercase font-bold mt-4 text-[#FBD784] gap-1">
+              <div className="border border-[#FBD784] border-x-4 w-20 h-0.5 mr-4 mt-3"></div>
+                <span className="text-2xl uppercase font-bold mt-4 text-[#FBD784] gap-1">
                   hiking essentials
                 </span>
               </div>
@@ -87,7 +89,7 @@ const Features: React.FC = () => {
 
       <section
         id="section1"
-        className="h-screen flex items-center justify-center px-20 relative"
+        className="h-screen flex items-center justify-center px-28 relative"
       >
         <div className="grid grid-cols-2 gap-10 w-full z-10">
           <div className="flex flex-col justify-center">
@@ -96,7 +98,8 @@ const Features: React.FC = () => {
                 03
               </span>
               <div className="flex gap-1 items-center ml-24">
-                <span className="text-md uppercase font-bold mt-4 text-[#FBD784] gap-1">
+              <div className="border border-[#FBD784] border-x-4 w-20 h-0.5 mr-4 mt-3"></div>
+                <span className="text-2xl uppercase font-bold mt-4 text-[#FBD784] gap-1">
                   Where you go is the key
                 </span>
               </div>

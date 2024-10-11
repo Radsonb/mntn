@@ -1,12 +1,13 @@
 import React from "react";
 import { FaUserCircle } from "react-icons/fa";
+import Logo from '../../assets/image/Logo.svg'
 
 const Header: React.FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full p-6 z-50 bg-transparent">
+    <header className="fixed top-0 left-0 w-full p-6 z-50 bg-transparent text-2xl">
       <nav className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="text-white text-2xl font-bold">
-          <a href="#">MNTN</a>
+        <div className="text-white font-bold">
+          <a href="#"><img src={Logo} alt="" /></a>
         </div>
 
         <ul className="flex space-x-8">

@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 import Features from "../components/features/Features";
-// import Footer from "../components/footer/Footer";
+import Footer from "../components/footer/Footer";
 
 const LandingPage: React.FC = () => {
     return (
@@ -10,7 +10,7 @@ const LandingPage: React.FC = () => {
             <Header />
             <Hero />
             <Features />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
